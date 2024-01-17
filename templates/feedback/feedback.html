@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Форма обратной связи
+{% endblock title %}
+
+{% load crispy_forms_tags %}
+
+{% block main %}
+
+
+
+        <div class="container py-1 h-100">
+            <div class="row d-flex justify-content-center align-items-center mt-5">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                        <div class="card-body p-3 text-center">
+
+                            <div class="mb-md-2 pb-1">
+
+                       <h2 class="text-center text-danger mt-2 mb-2">Форма обратной связи</h2>
+
+                                <img class="mb-2" src="{% static 'core/img/mango.png' %}" width="100px" height="auto">
+
+                                <form action="" method="post" enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    {{ form|crispy }}
+                                    <div class="d-grid gap-2">
+                                        <button type="submit" class="btn btn-warning">
+                                            Отправить
+                                        </button>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+{% endblock main %}

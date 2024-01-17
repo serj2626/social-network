@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}
+    Популярные фото
+{% endblock title %}
+
+{% load crispy_forms_tags %}
+
+{% block main %}
+    <div class="container-fluid">
+        <h2 class="text-center text-danger mt-2 mb-5">Популярные фотографии</h2>
+        <div class="row justify-content-center">
+            {% for img in images %}
+                <div class="col-md-5">
+                    <div class="m-4">
+                        <div>
+
+                            <a href="{{ img.get_absolute_url }}"><img class="rounded-3 shadow-lg"
+                                                                      src="{{ img.photo.url }}"
+                                                                      width="420" height="400px"></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                {% if page_obj.has_previous %}
+                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                {% endif %}
+            </li>
+            {% for page in page_obj.paginator.page_range %}
+                <li class="page-item {% if page == page_obj.number %} active {% endif %} ">
+                    <a class="page-link" href="?page={{ page }}">
+                        {{ page }}
+                    </a>
+                </li>
+            {% endfor %}
+            <li class="page-item">
+                {% if page_obj.has_next %}
+                    <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                {% endif %}
+            </li>
+        </ul>
+    </nav>
+{#    <div class="alert alert-dismissible alert-white text-center  mt-5 mb-0">#}
+{#        <strong>&copy; 2023</strong> Design by <a href="https://github.com/serj2626" target="_blank"#}
+{#                                                  class="alert-link text-warning text-decoration-none">Boytsov#}
+{#        Sergey</a>#}
+{#    </div>#}
+{% endblock main %}

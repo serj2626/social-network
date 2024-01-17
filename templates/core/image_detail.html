@@ -1,0 +1,261 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+{% load crispy_forms_tags %}
+
+
+{% block style %}
+    <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+{% endblock style %}
+
+{% block main %}
+    <div class="row justify-content-center mx-1 ">
+
+        <div class="border-3  bg-light pt-1 d-flex flex-column">
+            <div><p class="fs-4 fw-bold text-center text-warning">дата
+                публикации {{ photo.date_create|date:"d M Y" }}г</p><br></div>
+
+            {% if photo.tag.all %}
+                <p class="text-center">{% for tag in photo.tag.all %}
+                    <a class="text-decoration-none mx-1 text-danger" href="{% url 'tag_search_result' tag.name %}">
+                        #{{ tag.name }}
+                    </a>
+                {% endfor %}
+                </p>
+            {% endif %}
+        </div>
+
+        <div class="container border-4 border-dark  rounded-3 mb-2">
+            <div class="row align-items-md-stretch my-2">
+
+                <div class="col-md-7">
+                    <div class="shadow-lg"><img src="{{ photo.photo.url }}" class="w-100 h-auto rounded-2"></div>
+
+
+                </div>
+
+                <div class="col-md-4 px-2 mx-auto">
+
+                    <div class="d-grid gap-2 my-2">
+                        <input class="btn btn-primary" type="button" onclick="history.back();" value="Назад"/>
+                    </div>
+                    {% if request.user == photo.profile.user %}
+
+                        <div class="d-grid gap-2 my-2">
+                            <button type="button" class="btn btn-danger border-light " data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
+                                Удалить <i class="fa-solid fa-trash fa-sm" style="color: #eceff3;"></i>
+                            </button>
+
+                        </div>
+
+                        <!-- Модальное окно -->
+                        <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                             aria-hidden="true">
+                            <div class="modal-dialog ">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-danger" id="exampleModalLabel">Удалить фото?</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Закрыть"></button>
+                                    </div>
+                                    <form action="{% url 'image_delete' photo.profile.slug  photo.pk %}"
+                                          method="post">
+                                        {% csrf_token %}
+                                        <div class="modal-footer ">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                                Отмена
+                                            </button>
+                                            <button type="submit" class="btn btn-danger">Удалить</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="d-grid gap-2">
+                            <a href="{% url 'image_update' photo.profile.slug photo.pk %}"
+                               class="btn btn-image-detail-edit  border-primary fs-6">Редактировать <i
+                                    class="fa-solid fa-pen fa-sm"></i></a>
+                        </div>
+
+
+
+                    {% endif %}
+
+                    <div class="card mt-3 position-sticky">
+
+                        <div class="card-header d-flex flex-row">
+                            <a href="{{ photo.profile.get_absolute_url }}"> <img src="{{ photo.profile.picture.url }}"
+                                                                                 width="40px" height="40px"
+                                                                                 class="rounded-pill"
+                                                                                 alt=""></a>
+
+                            {% if photo.description %}
+                                <p class="text-center text-danger fs-5 mx-3">{{ photo.description|safe }}</p><br>
+                            {% else %}
+                                <p class="text-center text-danger  mx-3">Описание к фото отсутствует!</p><br>
+                            {% endif %}
+                        </div>
+
+                        <div class="card-header d-flex justify-content-start">
+                            <div class="d-flex flex-row">
+
+                                <div class="fs-6">
+                                    <form action="{% url 'image_add_like'  photo.profile.slug photo.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-light"><i
+                                                class="fa-solid fa-thumbs-up fa-xl mx-1 text-danger"></i>
+                                        </button>
+                                    </form>
+                                </div>
+
+                                <div>
+                                    <p class="fs-6">{{ photo.likes.all.count }}</p>
+                                </div>
+
+                                <div class="mx-4">
+                                    <i class="fa-solid fa-eye fa-xl"> </i><span> {{ total_views }}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <!-- Кнопка-триггер модального окна -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3">
+                            Оставить комментарий
+                        </button>
+                    </div>
+
+
+                    <!-- Модальное окно -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-warning" id="exampleModalLabel3">Ваш комментарий</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Закрыть"></button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form action="{% url 'add_comment' photo.profile.slug photo.pk %}"
+                                          method="post">
+                                        <div class="modal-body">
+                                            {% csrf_token %}
+                                            <label for="text"></label>
+                                            <textarea name="text" id="text" cols="33" rows="4"
+                                                      class="form-control"></textarea>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                                                Закрыть
+                                            </button>
+                                            <button type="submit" class="btn btn-success">Отправить</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div class="col-md-10 mb-2">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header text-center" id="flush-headingOne mb-2">
+                            <button class="accordion-button collapsed fs-5 rounded-2 text-danger" type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                Комментарии
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingOne"
+                             data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body ">
+                                {% for comment in photo.all_comments.all %}
+                                    <div class="d-flex align-items-center flex-row my-5 justify-content-between alert alert-light border-2 border-info rounded-3">
+                                        <div>
+                                            <a href="{% url 'users:profile' comment.user.profile.slug %}">
+                                                <img class="rounded-circle" src="{{ comment.user.profile.picture.url }}"
+                                                     width="60px"
+                                                     height="60px">
+                                            </a>
+
+                                        </div>
+                                        <div class="">{{ comment.text }}</div>
+                                        {% if request.user != comment.user %}
+                                            <div class=" float-end">
+                                                <form class="" action="{% url 'comment_add_like'  comment.pk %}"
+                                                      method="post">{% csrf_token %}
+                                                    <button type="submit" class="border-0  bg-light">
+                                                        <i class="fa-solid fa-thumbs-up fa-xl text-danger">
+                                                        </i>
+                                                        {{ comment.likes.all.count }}
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        {% else %}
+                                            <div class="d-flex flex-row float-end">
+                                                <div>
+                                                    <form class="" action="{% url 'comment_add_like'  comment.pk %}"
+                                                          method="post">{% csrf_token %}
+                                                        <button type="submit" class="border-0 bg-light ">
+                                                            <i class="fa-solid fa-thumbs-up fa-xl text-warning">
+                                                            </i>
+                                                            {{ comment.likes.all.count }}
+                                                        </button>
+                                                    </form>
+                                                </div>
+                                                <div>
+                                                    <a href="{% url 'comment_edit' comment.pk %}">
+                                                        <i class="fa-solid fa-file-pen fa-xl text-success mx-2"></i>
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <a href="{% url 'comment_delete' comment.pk %}">
+                                                        <i class="fa-solid fa-trash fa-xl text-danger"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                    </div>
+                                {% empty %}
+                                    <h5 class="text-center text-danger mb-4">Комментарии отсутствуют.......</h5>
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+{% endblock main %}

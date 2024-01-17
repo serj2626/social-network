@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{#{% block title %}Главная{% endblock title %}#}
+
+{% block main %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12">
+                <div class="row justify-content-center">
+
+                    <div class=" mb-5 bg-light rounded-3">
+                        <div class="container-fluid text-center">
+                            <h1 class="display-5 fw-bold text-warning ">Mango</h1>
+                            <p class="col-md-8 mx-auto fs-4">Mango - современная социальная сеть,
+                                где вы найдете множество фотографий. Знакомьтесь с их владельцами, общайтесь и
+                                влюбляйтесь.</p>
+                            <a href="{% url 'popular_images_list' %}" class="btn btn-primary btn-lg ">Смотреть популярные
+                                фото</a>
+                        </div>
+                    </div>
+
+
+                    <div class="row align-items-md-stretch my-5">
+                        <div class="col-md-6">
+                            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                                <h2>Подписаться на рассылку</h2>
+                                <p>Подписывайся на наши новости, будь в курсе, какие обновления появились на
+                                    сайте......</p>
+                                <a href="{% url 'newsletter' %}" class="btn btn-outline-light">Подписаться</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="h-100 p-5 bg-light border rounded-3">
+                                <h2>Обратная связь</h2>
+                                <p>Если у вас возникли проблемы с работой сайта, то вы можете посетить данный раздел,
+                                    где сможете задать интересующий вас вопрос,
+                                    а мы в свою очередь, постараемся оперативно вам помочь......</p>
+                                <a href="{% url 'feedback' %}" class="btn btn-outline-secondary">Задать вопрос</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-dismissible alert-white text-center  mt-5 mb-0">
+        <strong>&copy; 2023</strong> Design by <a href="https://github.com/serj2626" target="_blank"
+                                                  class="alert-link text-warning text-decoration-none">Boytsov
+        Sergey</a>
+    </div>
+{% endblock main %}

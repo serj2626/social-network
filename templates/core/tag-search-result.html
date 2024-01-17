@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+{% block style %}
+{% endblock style %}
+
+
+{% block main %}
+    <div class="row justify-content-center">
+        <div class="container">
+            <div class="col-md-10 mx-auto shadow-lg">
+                <div class=" p-3 bg-body rounded shadow-sm">
+                    <h4 class="text-center text-warning">Результаты поиска по тегу <span
+                            class="text-success"><< {{ tag }} >></span></h4>
+                    <h5 class="text-center my-2">Найдено {{ images.count }} фотографий</h5>
+                </div>
+
+                <div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            {% for photo in images %}
+                                <div class="col mx-auto my-2">
+                                    <a href="{{ photo.get_absolute_url }}"> <img class="rounded-3 shadow-lg"
+                                                                                 src="{{ photo.photo.url }}"
+                                                                                 width="400px" height="400px"></a>
+
+                                </div>
+                            {% empty %}
+                                <h4 class="text-center text-danger">Фотографии отсутствуют</h4>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock main %}

@@ -1,0 +1,4576 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-09-24T23:22:39.299Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "M",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-09-24T23:22:39.307Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Mvvv",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-09-24T23:22:39.313Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "anna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-09-24T23:22:39.320Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "marina",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-09-24T23:22:39.327Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-09-24T23:22:51.277Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Профиль пользователя admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.158Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "Den",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.171Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "alex",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.183Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "da",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.194Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "14",
+    "object_repr": "dsfsf-dfsf",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.207Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "inna",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.219Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "qq",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-09-25T11:03:26.232Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "13",
+    "object_repr": "qqqqqq",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-09-25T11:31:08.795Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Профиль пользователя admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Picture\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-09-25T11:32:04.151Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Профиль пользователя alex",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Picture\", \"\\u0418\\u043c\\u044f\", \"\\u0424\\u0430\\u043c\\u0438\\u043b\\u0438\\u044f\", \"\\u0414\\u0430\\u0442\\u0430 \\u0440\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f\", \"Country\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-09-25T21:11:31.279Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-09-25T21:11:44.837Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-09-25T21:11:53.790Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-09-25T21:21:35.438Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-09-25T21:21:44.845Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-09-25T21:21:56.095Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "Фотка профиля admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-09-26T10:45:32.774Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Профиль пользователя alex",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0440\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-09-28T14:42:42.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Профиль пользователя alex",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Subscriptions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-09-28T14:45:02.739Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Профиль пользователя admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Followers\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-10-01T18:04:43.556Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Сообщение от alex кому admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-10-02T21:25:55.342Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "27",
+    "object_repr": "Сообщение от admin кому den",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0424\\u043e\\u0442\\u043e\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.842Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "11",
+    "object_repr": "Сообщение от admin кому alex",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.854Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "10",
+    "object_repr": "Сообщение от admin кому marina",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.865Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "9",
+    "object_repr": "Сообщение от alex кому admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.876Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "8",
+    "object_repr": "Сообщение от alex кому admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.887Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "7",
+    "object_repr": "Сообщение от alex кому admin",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.899Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "6",
+    "object_repr": "Сообщение от admin кому olga",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.906Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "4",
+    "object_repr": "Сообщение от admin кому max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-10-03T09:55:07.913Z",
+    "user": 1,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Сообщение от admin кому alex",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-10-03T10:50:27.916Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Чат между admin и marina",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-10-03T10:50:27.921Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Чат между admin и olga",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-10-03T10:50:27.926Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Чат между admin и den",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-10-03T10:50:27.931Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Чат между admin и max",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-10-03T10:50:27.935Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "Чат между admin и alex",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-10-03T21:35:54.320Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Профиль пользователя admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0440\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Профиль",
+    "content_type": 7,
+    "codename": "add_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Профиль",
+    "content_type": 7,
+    "codename": "change_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Профиль",
+    "content_type": 7,
+    "codename": "delete_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Профиль",
+    "content_type": 7,
+    "codename": "view_profile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 8,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 8,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 8,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 8,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 9,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 9,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 9,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 9,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add Фотки пользователя",
+    "content_type": 10,
+    "codename": "add_profileimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change Фотки пользователя",
+    "content_type": 10,
+    "codename": "change_profileimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete Фотки пользователя",
+    "content_type": 10,
+    "codename": "delete_profileimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view Фотки пользователя",
+    "content_type": 10,
+    "codename": "view_profileimage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Рассылка на новости",
+    "content_type": 11,
+    "codename": "add_newsletter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Рассылка на новости",
+    "content_type": 11,
+    "codename": "change_newsletter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Рассылка на новости",
+    "content_type": 11,
+    "codename": "delete_newsletter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Рассылка на новости",
+    "content_type": 11,
+    "codename": "view_newsletter"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add Обратная связь",
+    "content_type": 12,
+    "codename": "add_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change Обратная связь",
+    "content_type": 12,
+    "codename": "change_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete Обратная связь",
+    "content_type": 12,
+    "codename": "delete_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Обратная связь",
+    "content_type": 12,
+    "codename": "view_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Чат",
+    "content_type": 13,
+    "codename": "add_chatmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change Чат",
+    "content_type": 13,
+    "codename": "change_chatmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete Чат",
+    "content_type": 13,
+    "codename": "delete_chatmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view Чат",
+    "content_type": 13,
+    "codename": "view_chatmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add Сообщение",
+    "content_type": 14,
+    "codename": "add_messagemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change Сообщение",
+    "content_type": 14,
+    "codename": "change_messagemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete Сообщение",
+    "content_type": 14,
+    "codename": "delete_messagemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view Сообщение",
+    "content_type": 14,
+    "codename": "view_messagemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Комментарий",
+    "content_type": 15,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Комментарий",
+    "content_type": 15,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Комментарий",
+    "content_type": 15,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Комментарий",
+    "content_type": 15,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Уведомление",
+    "content_type": 16,
+    "codename": "add_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Уведомление",
+    "content_type": 16,
+    "codename": "change_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Уведомление",
+    "content_type": 16,
+    "codename": "delete_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Уведомление",
+    "content_type": 16,
+    "codename": "view_notification"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add ip",
+    "content_type": 17,
+    "codename": "add_ip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change ip",
+    "content_type": 17,
+    "codename": "change_ip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete ip",
+    "content_type": 17,
+    "codename": "delete_ip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view ip",
+    "content_type": 17,
+    "codename": "view_ip"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add Просмотр",
+    "content_type": 18,
+    "codename": "add_viewcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change Просмотр",
+    "content_type": 18,
+    "codename": "change_viewcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete Просмотр",
+    "content_type": 18,
+    "codename": "delete_viewcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view Просмотр",
+    "content_type": 18,
+    "codename": "view_viewcount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add captcha store",
+    "content_type": 19,
+    "codename": "add_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change captcha store",
+    "content_type": 19,
+    "codename": "change_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete captcha store",
+    "content_type": 19,
+    "codename": "delete_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view captcha store",
+    "content_type": 19,
+    "codename": "view_captchastore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add association",
+    "content_type": 20,
+    "codename": "add_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change association",
+    "content_type": 20,
+    "codename": "change_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete association",
+    "content_type": 20,
+    "codename": "delete_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view association",
+    "content_type": 20,
+    "codename": "view_association"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add code",
+    "content_type": 21,
+    "codename": "add_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change code",
+    "content_type": 21,
+    "codename": "change_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete code",
+    "content_type": 21,
+    "codename": "delete_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view code",
+    "content_type": 21,
+    "codename": "view_code"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add nonce",
+    "content_type": 22,
+    "codename": "add_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change nonce",
+    "content_type": 22,
+    "codename": "change_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete nonce",
+    "content_type": 22,
+    "codename": "delete_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view nonce",
+    "content_type": 22,
+    "codename": "view_nonce"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can add user social auth",
+    "content_type": 23,
+    "codename": "add_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can change user social auth",
+    "content_type": 23,
+    "codename": "change_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can delete user social auth",
+    "content_type": 23,
+    "codename": "delete_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can view user social auth",
+    "content_type": 23,
+    "codename": "view_usersocialauth"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can add partial",
+    "content_type": 24,
+    "codename": "add_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can change partial",
+    "content_type": 24,
+    "codename": "change_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can delete partial",
+    "content_type": 24,
+    "codename": "delete_partial"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can view partial",
+    "content_type": 24,
+    "codename": "view_partial"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$r27cSKf7R03w9r9aSO7Qah$g4XVBf9tL1ts+FvUsB0GLwrs8hXAvXIHQEwWDwHc88I=",
+    "last_login": "2023-10-06T23:54:36.607Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "serj2626@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-09-23T22:38:44.179Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$KFHQUARF96semvTxMJkF8H$fnwYrPkIVT9SaY02ui53VarEzxUNcatVD7xFebTYRzU=",
+    "last_login": "2023-10-03T10:54:45.977Z",
+    "is_superuser": false,
+    "username": "alex",
+    "first_name": "",
+    "last_name": "",
+    "email": "a@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-09-25T11:06:55.941Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$cSKRoJEdBMCb1aGWgI0Viz$i0WbZ7xK5fyrO3MiJhYTBRCSXHFT/JDW46uS18/d1iI=",
+    "last_login": "2023-09-30T10:58:14.340Z",
+    "is_superuser": false,
+    "username": "max",
+    "first_name": "",
+    "last_name": "",
+    "email": "max@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-09-30T10:58:04.439Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$1jIbgPKUhXtFMYBrwqsC0P$IxSoyUC13NzAr2GzovvlwCWpyWrqQ9FdU1TpZBB15R0=",
+    "last_login": "2023-10-04T23:12:18.506Z",
+    "is_superuser": false,
+    "username": "den",
+    "first_name": "",
+    "last_name": "",
+    "email": "d@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-09-30T11:02:16.226Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$EEG0D7D9DyxwttoeE7d78u$kD4bieoYnCvSTwztAeesjROkbsj6PHfmzjpNR69sdPw=",
+    "last_login": "2023-09-30T19:12:45.438Z",
+    "is_superuser": false,
+    "username": "marina",
+    "first_name": "",
+    "last_name": "",
+    "email": "marina@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-09-30T19:12:37.672Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Ht8h6jzT18D1edU7ujmhR1$Y+cOqanFLmr+pU2ecGLc6HMW4Zh/E0bLICdyl9/Hbh0=",
+    "last_login": "2023-10-01T23:05:10.032Z",
+    "is_superuser": false,
+    "username": "olga",
+    "first_name": "",
+    "last_name": "",
+    "email": "olga@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-01T13:30:40.414Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$464ISom3zw3r2wcBSh1DzA$5fRtv23kN9QU+uE7yJljvszBiEUwGuhjxr9cBzGRvHM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "serj",
+    "first_name": "",
+    "last_name": "",
+    "email": "serj2626@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-05T10:00:52.897Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "!iF5SScU8H1QuyhNAt3lEqUopTQLLLZtf2P9736tB",
+    "last_login": "2023-10-05T11:48:46.605Z",
+    "is_superuser": false,
+    "username": "serj2626",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-10-05T11:48:46.570Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "users",
+    "model": "profile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "profileimage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "feedback",
+    "model": "newsletter"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "feedback",
+    "model": "feedback"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "chat",
+    "model": "chatmodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "chat",
+    "model": "messagemodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "core",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "core",
+    "model": "notification"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "core",
+    "model": "ip"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "core",
+    "model": "viewcount"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "captcha",
+    "model": "captchastore"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "social_django",
+    "model": "association"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "social_django",
+    "model": "code"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "social_django",
+    "model": "nonce"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "social_django",
+    "model": "usersocialauth"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "social_django",
+    "model": "partial"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0rmi8cr6d5yhdzqep555iq28pr5yrd2o",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qoMvc:Lt1A8F8ej7JOtN_AIi97BGHrqpl-4UqJKEA2HKT46h4",
+    "expire_date": "2023-10-19T11:54:04.925Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4m4gylo8255vata1l47d6rtnoqt4d2cy",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qn1Tm:khWvfnH6w6wKRmFY6Vaf-BioXMklWoPWfiBY4Wq8VwY",
+    "expire_date": "2023-10-15T18:47:46.317Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "56tn5yefgzp3whno71v6srrfpsg7g8f0",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qnmtc:gB0XCLO8rcWZthbjLpdr50B446fqk355NLwp_09gehg",
+    "expire_date": "2023-10-17T21:25:36.634Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5qa4ze5ekd7pe1w2vvb18pg4zej07h9e",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qnH4a:QCMZ4X9gDpkkp4irzeMze4ydVvVh0f0Xpkx0wdXTkd0",
+    "expire_date": "2023-10-16T11:26:48.777Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6zd6vw3w0f1579xs8getrsn7nnv5hgo3",
+  "fields": {
+    "session_data": "e30:1qkXtP:USRCF_aQniSjE5JJbxfLhBOBPOX-ZMRgPVeaJVvr-vk",
+    "expire_date": "2023-10-08T22:47:59.744Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "75ogqqwztzzg9kf0htdtjgkgj520fdnh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-rT-U9DmDZXsXHEC2FCcV4u4QKQW0b2bei8W0rTVug5Y4IzszCez0O-ZUHtR2gvfUbp2X3tZlznxX-EEHnzrS83K4fwc1jfqtBSowIdPVg01BI5J2RltnjHaqEEnjgy5OJlDWoSgoCTEYQPBCQhDs_QH2ujdX:1qku9Q:bV8AdPBs-WyuP9BpZg1Yi1ZaB2ARkDRQLDX9yVxSlIA",
+    "expire_date": "2023-10-09T22:34:00.910Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cvrvc6ch2azg365n98k7xczs5j3b4tur",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qlT5J:hTR4HzqnnSnu97DP1T_9E2IcQaonFt6CRDC4ZqmkZlQ",
+    "expire_date": "2023-10-11T11:52:05.713Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d3ysbbjh8up02z11ws9yt8a880vplbc7",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qlaP3:TuVEsZicmU5YnCr6TUxfETw010Oq3-wpSSrqpeS-4Ss",
+    "expire_date": "2023-10-11T19:40:57.767Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "haoans3mzk7zx1fpshjj99uneva9sexz",
+  "fields": {
+    "session_data": "e30:1qkYPy:-0VrjGeb4dz7rzJXf0ityC9dc4hO-uAqvNlanUo49To",
+    "expire_date": "2023-10-08T23:21:38.639Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "luryiielazjtt1h9gxqg0nwtlx8fc2c5",
+  "fields": {
+    "session_data": "eyJ2ay1vYXV0aDJfc3RhdGUiOiJxeE1xMFh4c3l5RURZY09VWURFdHVaOXk1b2t1czZCWSJ9:1qouUR:9LwXAs-rMzsKThemNXDRr_M9wMRlfwBw1HqQEHKzHF8",
+    "expire_date": "2023-10-20T23:44:15.535Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nvlgzxhrsg9u885jfxs3q2o8fd7x4dsf",
+  "fields": {
+    "session_data": ".eJxVjEsOgjAABe_StZLW_qhLExeGKEcg_VJAqdJiDMa7Cwkbtm9m3he8u32QY_KHKiaZLDiCF3lcJlx-aGykLp8eM3MuUMFuw9TCum3ADlRLUY3RDlVj5gRtNyV1Z_sFmFb2dch06NPQqGxRspXG7BqMvZ9Wd3PgZfRzzZxjRBAnHcEHCgWjjhpLBKQK5QpBbpAVhCNBOWcWUUM0zinOCWNGQcHB7w-OUkhf:1qoueS:ouimrdZbChDgkaWa9YTtFtxxQ96hINcTJ7GMu6qrhMY",
+    "expire_date": "2023-10-20T23:54:36.623Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p9mn6zmadhx0vl4kevy0eztmslecx12i",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qkp6V:lVZs6oikyCIgy8NEfrk9muC7M5APMaxTvbMecR_G8cc",
+    "expire_date": "2023-10-09T17:10:39.974Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tupsi6had6gfjdcofywrr4uk14mmx546",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qlRdK:6MDrudOxx4J3r6GClv0rOynGD9CjTpjXmuOaqqwdIr0",
+    "expire_date": "2023-10-11T10:19:06.939Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uospx3h3n66e58zmll5311ecqnijuggn",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qmXGd:375LfXxxqq4ROcYkAu6zRriun1isykqAIg3mZDk0mZk",
+    "expire_date": "2023-10-14T10:32:11.899Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x6q4343v9e1eu3ivzjtvkoivheli8m8g",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qkYQh:E4L9EctwPY28jS--13esWCdWLG5C2Wef5mGT9UDN85c",
+    "expire_date": "2023-10-08T23:22:23.689Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zkbnp4r3u0ggfplq34sxoizah2x5q2hz",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgMzxcuu83EGBAqgaS0q6M_65NutDtPefcF_NhW6vfRl78TOzCJDv9bjGkR247oHtot85Tb-syR74r_KCDT53y83q4fwc1jPqtdSkaHJRQQJ1ROI0FKYMTGKWNUhiS2YGRDo3RWSJBUhaVBa0pCmfY-wPFUzao:1qnd65:gZX1Y8h0sB-Fu4ip2LCBkhGeci6BVM8rOmj8p3Sel9A",
+    "expire_date": "2023-10-17T10:57:49.836Z"
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 1,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/IMG_1002.JPG",
+    "description": null,
+    "date_create": "2023-09-25T21:09:52Z",
+    "likes": [
+      1,
+      15,
+      17
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 2,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/IMG_1374.JPG",
+    "description": null,
+    "date_create": "2023-09-25T21:11:37Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 3,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/11.jpg",
+    "description": null,
+    "date_create": "2023-09-25T21:11:46Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 4,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/1.jpg",
+    "description": null,
+    "date_create": "2023-09-25T21:21:25Z",
+    "likes": [
+      1,
+      18
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 5,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/тттттт.jpg",
+    "description": null,
+    "date_create": "2023-09-25T21:21:36Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 6,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/якоб.jpg",
+    "description": null,
+    "date_create": "2023-09-25T21:21:46Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 7,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/DSC_0018.jpg",
+    "description": null,
+    "date_create": "2023-09-25T22:35:26.709Z",
+    "likes": [
+      15
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 8,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/DSC_0104.jpg",
+    "description": null,
+    "date_create": "2023-09-25T22:35:36.684Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 9,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/культ.jpg",
+    "description": null,
+    "date_create": "2023-09-25T22:35:45.249Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 10,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/DSC_8206.jpg",
+    "description": null,
+    "date_create": "2023-09-26T17:16:21.220Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 11,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/DSC_8215.jpg",
+    "description": null,
+    "date_create": "2023-09-26T17:16:32.442Z",
+    "likes": [
+      1,
+      15
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 13,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/0ALq3j6jj9x3hrvp8ld7YuHL-eMPKyjAPRQOxfsvBOVZObWcoLqKpW_fR8El8vDxRFmLm_abTetKX.jpg",
+    "description": null,
+    "date_create": "2023-09-26T17:18:09.155Z",
+    "likes": [
+      1,
+      15
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 14,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/0t7OU1dlt_K0kzhnVHJ-uatV4jTZlIDzd-eY6L9RcSIH_6hNm8MBfSCZdeWBl1OwJazeF_oRUDfqS.jpg",
+    "description": null,
+    "date_create": "2023-09-26T17:18:16.144Z",
+    "likes": [
+      1,
+      15
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 15,
+  "fields": {
+    "profile": 6,
+    "photo": "profile/all_photos/2wFt1AWhijjm4VXnU85xofl7d7wUg7ewrxkUfUlEQ9frLg3xD1AgnDh1ZxsJGTfbQRyWx_qnyRF1s.jpg",
+    "description": null,
+    "date_create": "2023-09-26T17:18:23.481Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 16,
+  "fields": {
+    "profile": 8,
+    "photo": "profile/all_photos/SCHW7639.JPG",
+    "description": null,
+    "date_create": "2023-09-30T11:03:44.275Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 17,
+  "fields": {
+    "profile": 9,
+    "photo": "profile/all_photos/1639069673155.jpg",
+    "description": null,
+    "date_create": "2023-09-30T19:14:09.374Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 18,
+  "fields": {
+    "profile": 9,
+    "photo": "profile/all_photos/DSC_8236.jpg",
+    "description": null,
+    "date_create": "2023-09-30T19:14:20.987Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 19,
+  "fields": {
+    "profile": 9,
+    "photo": "profile/all_photos/IMG_20200720_191048__копия.jpg",
+    "description": null,
+    "date_create": "2023-09-30T19:14:31.841Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 20,
+  "fields": {
+    "profile": 10,
+    "photo": "profile/all_photos/DSC_8205.jpg",
+    "description": null,
+    "date_create": "2023-10-01T13:59:41.064Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 21,
+  "fields": {
+    "profile": 10,
+    "photo": "profile/all_photos/DSC_8235.jpg",
+    "description": null,
+    "date_create": "2023-10-01T13:59:53.690Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 22,
+  "fields": {
+    "profile": 10,
+    "photo": "profile/all_photos/DSC_8223__копия.jpg",
+    "description": null,
+    "date_create": "2023-10-01T14:00:01.894Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.profileimage",
+  "pk": 23,
+  "fields": {
+    "profile": 1,
+    "photo": "profile/all_photos/мам.jpg",
+    "description": null,
+    "date_create": "2023-10-05T12:13:14.909Z",
+    "likes": [
+      1
+    ]
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 1,
+  "fields": {
+    "photo": 1,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-09-30T23:29:37.830Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 2,
+  "fields": {
+    "photo": 2,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-09-30T23:30:22.390Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 3,
+  "fields": {
+    "photo": 10,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-09-30T23:30:25.785Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 4,
+  "fields": {
+    "photo": 6,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-09-30T23:30:28.600Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 5,
+  "fields": {
+    "photo": 4,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-09-30T23:30:31.446Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 6,
+  "fields": {
+    "photo": 20,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-01T14:00:05.306Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 7,
+  "fields": {
+    "photo": 5,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-01T18:35:06.569Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 8,
+  "fields": {
+    "photo": 21,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-01T18:48:38.558Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 10,
+  "fields": {
+    "photo": 11,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-01T23:32:56.278Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 11,
+  "fields": {
+    "photo": 14,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-01T23:33:09.030Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 12,
+  "fields": {
+    "photo": 18,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-02T11:27:33.972Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 13,
+  "fields": {
+    "photo": 22,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-02T11:27:47.821Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 14,
+  "fields": {
+    "photo": 19,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-03T21:54:43.413Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 15,
+  "fields": {
+    "photo": 13,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-03T21:57:47.504Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 16,
+  "fields": {
+    "photo": 9,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-04T22:43:05.496Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 17,
+  "fields": {
+    "photo": 3,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-04T22:46:36.888Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 18,
+  "fields": {
+    "photo": 7,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-04T22:51:26.170Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 19,
+  "fields": {
+    "photo": 15,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-04T22:51:29.004Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 20,
+  "fields": {
+    "photo": 23,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-05T12:13:20.587Z"
+  }
+},
+{
+  "model": "core.viewcount",
+  "pk": 21,
+  "fields": {
+    "photo": 17,
+    "ip_address": "127.0.0.1",
+    "viewed_on": "2023-10-07T10:52:12.363Z"
+  }
+},
+{
+  "model": "core.comment",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "photo": 4,
+    "text": "Круто",
+    "date_create": "2023-09-30T17:50:18.263Z",
+    "date_update": "2023-09-30T18:35:53.525Z",
+    "likes": [
+      15
+    ]
+  }
+},
+{
+  "model": "core.comment",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "photo": 4,
+    "text": "Классное фото, брат",
+    "date_create": "2023-09-30T17:53:14.560Z",
+    "date_update": "2023-09-30T18:34:20.222Z",
+    "likes": [
+      15
+    ]
+  }
+},
+{
+  "model": "core.comment",
+  "pk": 8,
+  "fields": {
+    "user": 18,
+    "photo": 4,
+    "text": "Уебок",
+    "date_create": "2023-09-30T19:15:40.406Z",
+    "date_update": "2023-09-30T19:15:40.406Z",
+    "likes": [
+      15
+    ]
+  }
+},
+{
+  "model": "core.comment",
+  "pk": 9,
+  "fields": {
+    "user": 15,
+    "photo": 1,
+    "text": "Ты крутой",
+    "date_create": "2023-09-30T20:19:10.883Z",
+    "date_update": "2023-09-30T20:19:10.883Z",
+    "likes": [
+      15,
+      17
+    ]
+  }
+},
+{
+  "model": "core.comment",
+  "pk": 10,
+  "fields": {
+    "user": 17,
+    "photo": 1,
+    "text": "Питер -  классный город",
+    "date_create": "2023-09-30T20:20:33.946Z",
+    "date_update": "2023-09-30T20:20:33.946Z",
+    "likes": [
+      17
+    ]
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 1,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 1,
+    "from_user": 15,
+    "image": 1,
+    "date": "2023-09-30T20:19:01.909Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 2,
+  "fields": {
+    "notification_type": 2,
+    "to_user": 1,
+    "from_user": 15,
+    "image": 1,
+    "date": "2023-09-30T20:19:10.892Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 3,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T20:19:16.561Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 4,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T20:19:18.052Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 5,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 15,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T20:19:35.933Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 6,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 1,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-09-30T20:20:08.379Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 7,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 1,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-09-30T20:20:09.679Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 8,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 1,
+    "from_user": 17,
+    "image": 1,
+    "date": "2023-09-30T20:20:14.186Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 9,
+  "fields": {
+    "notification_type": 2,
+    "to_user": 1,
+    "from_user": 17,
+    "image": 1,
+    "date": "2023-09-30T20:20:33.955Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 10,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 17,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-09-30T20:20:47.506Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 11,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 15,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-09-30T20:20:55.036Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 12,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 15,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T21:02:45.669Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 13,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-09-30T23:15:10.846Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 14,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-09-30T23:15:14.296Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 15,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 15,
+    "from_user": 1,
+    "image": 8,
+    "date": "2023-09-30T23:19:13.360Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 16,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 15,
+    "from_user": 1,
+    "image": 13,
+    "date": "2023-09-30T23:20:08.078Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 17,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 15,
+    "from_user": 1,
+    "image": 13,
+    "date": "2023-09-30T23:20:09.829Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 18,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 17,
+    "from_user": 1,
+    "image": 16,
+    "date": "2023-09-30T23:20:42.780Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 19,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T23:31:32.206Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 20,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T23:37:46.328Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 21,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 18,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-09-30T23:37:50.852Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 22,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 1,
+    "from_user": 19,
+    "image": null,
+    "date": "2023-10-01T13:31:52.272Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 23,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T14:14:41.300Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 24,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T14:35:49.378Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 25,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 16,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T14:41:06.865Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 26,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T14:41:31.024Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 27,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T14:45:34.718Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 28,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-10-01T17:31:53.548Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 29,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-10-01T17:31:59.256Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 30,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-10-01T17:32:42.812Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 31,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 18,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T17:33:52.203Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 32,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:27:14.436Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 33,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:27:17.047Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 34,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:32:56.175Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 35,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:33:54.597Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 36,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:48:11.297Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 37,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 19,
+    "from_user": 1,
+    "image": 21,
+    "date": "2023-10-01T18:48:40.124Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 38,
+  "fields": {
+    "notification_type": 2,
+    "to_user": 19,
+    "from_user": 1,
+    "image": 21,
+    "date": "2023-10-01T18:48:47.665Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 39,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 1,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:48:52.653Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 40,
+  "fields": {
+    "notification_type": 5,
+    "to_user": 1,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T18:48:59.816Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 41,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T22:24:56.562Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 42,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T22:24:59.111Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 43,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T22:25:05.759Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 44,
+  "fields": {
+    "notification_type": 7,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T22:51:54.042Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 45,
+  "fields": {
+    "notification_type": 7,
+    "to_user": 16,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T22:58:07.341Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 46,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 1,
+    "from_user": 19,
+    "image": null,
+    "date": "2023-10-01T23:05:17.316Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 47,
+  "fields": {
+    "notification_type": 7,
+    "to_user": 1,
+    "from_user": 19,
+    "image": null,
+    "date": "2023-10-01T23:05:31.461Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 48,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T23:06:31.179Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 49,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T23:17:56.297Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 50,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 1,
+    "from_user": 1,
+    "image": 11,
+    "date": "2023-10-01T23:32:58.533Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 51,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 15,
+    "from_user": 1,
+    "image": 14,
+    "date": "2023-10-01T23:33:10.304Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 52,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T23:45:09.372Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 53,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-01T23:49:16.050Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 54,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T10:36:36.029Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 55,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T10:52:40.061Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 56,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T10:53:01.365Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 57,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 18,
+    "from_user": 1,
+    "image": 18,
+    "date": "2023-10-02T11:27:35.470Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 58,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 19,
+    "from_user": 1,
+    "image": 22,
+    "date": "2023-10-02T11:27:49.661Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 59,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 19,
+    "from_user": 1,
+    "image": 20,
+    "date": "2023-10-02T11:28:12.739Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 60,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T20:47:22.453Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 61,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T20:48:16.790Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 62,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T20:50:43.531Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 63,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:12:56.802Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 64,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:13:47.624Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 65,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:14:11.381Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 66,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:15:04.031Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 67,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:16:12.192Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 68,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:16:38.776Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 69,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:17:55.247Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 70,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:18:38.147Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 71,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:18:55.628Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 72,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:19:21.650Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 73,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:21:58.855Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 74,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:23:08.491Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 75,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:23:12.430Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 76,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:23:27.217Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 77,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:24:53.411Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 78,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:27:48.963Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 79,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-02T21:28:21.335Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 80,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:00:31.545Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 81,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:00:55.655Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 82,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:00:59.722Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 83,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 16,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:37:47.245Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 84,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 16,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:40:14.255Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 85,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 16,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:42:51.278Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 86,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:53:43.235Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 87,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-10-03T10:55:09.696Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 88,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 15,
+    "image": null,
+    "date": "2023-10-03T10:55:19.348Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 89,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T10:59:13.528Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 90,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T21:26:05.670Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 91,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T21:26:14.485Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 92,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T21:26:17.884Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 93,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-03T21:26:19.795Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 94,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T22:49:48.341Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 95,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T22:49:52.557Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 96,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 1,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-10-04T23:44:36.916Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 97,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 1,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-10-04T23:44:39.620Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 98,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 1,
+    "from_user": 17,
+    "image": null,
+    "date": "2023-10-04T23:45:07.871Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 99,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T23:45:53.907Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 100,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T23:45:59.619Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 101,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T23:46:06.868Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 102,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 17,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-04T23:46:15.686Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 103,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 18,
+    "from_user": 1,
+    "image": 18,
+    "date": "2023-10-05T10:34:41.490Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 104,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 18,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T10:34:46.542Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 105,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 18,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T10:34:56.708Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 106,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T11:22:20.448Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 107,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T11:22:24.108Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 108,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T12:15:35.596Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 109,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-05T12:15:57.291Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 110,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 1,
+    "from_user": 1,
+    "image": 23,
+    "date": "2023-10-06T22:16:53.118Z",
+    "user_has_seen": true
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 111,
+  "fields": {
+    "notification_type": 6,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-06T22:17:40.391Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 112,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-06T22:18:17.838Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 113,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 19,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-06T22:18:25.665Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 114,
+  "fields": {
+    "notification_type": 4,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-06T22:18:50.999Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 115,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 15,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-06T22:19:00.798Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 116,
+  "fields": {
+    "notification_type": 1,
+    "to_user": 15,
+    "from_user": 1,
+    "image": 9,
+    "date": "2023-10-07T10:51:15.996Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "core.notification",
+  "pk": 117,
+  "fields": {
+    "notification_type": 3,
+    "to_user": 21,
+    "from_user": 1,
+    "image": null,
+    "date": "2023-10-07T11:52:15.133Z",
+    "user_has_seen": false
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "first_name": "Сергей",
+    "last_name": "Бойцов",
+    "bio": "Начинающий программист",
+    "birth_date": "1993-03-05",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": true,
+    "picture": "uploads/profile_pictures/IMG_2459.JPG",
+    "slug": "admin",
+    "followers": [
+      15,
+      17,
+      18,
+      19
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 6,
+  "fields": {
+    "user": 15,
+    "first_name": "Алексей",
+    "last_name": "Иванов",
+    "bio": "Начинающий фотограф",
+    "birth_date": "1255-03-05",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "uploads/profile_pictures/11.jpg",
+    "slug": "alex",
+    "followers": [
+      1,
+      17
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 7,
+  "fields": {
+    "user": 16,
+    "first_name": "Максим",
+    "last_name": "Алексеев",
+    "bio": "",
+    "birth_date": "1993-03-05",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "uploads/profile_pictures/IMG_2486.JPG",
+    "slug": "max",
+    "followers": [
+      1,
+      17
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 8,
+  "fields": {
+    "user": 17,
+    "first_name": "Денис",
+    "last_name": "Денисов",
+    "bio": "Начинающий певец",
+    "birth_date": "2003-09-30",
+    "country": "AZ",
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "uploads/profile_pictures/PWFB8397.JPG",
+    "slug": "den",
+    "followers": [
+      1
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 9,
+  "fields": {
+    "user": 18,
+    "first_name": "Марина",
+    "last_name": "Бойцова",
+    "bio": "",
+    "birth_date": "1993-09-30",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "uploads/profile_pictures/IMG_20200901_183040.jpg",
+    "slug": "marina",
+    "followers": [
+      1
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 10,
+  "fields": {
+    "user": 19,
+    "first_name": "Ольга",
+    "last_name": "Бойцова",
+    "bio": "",
+    "birth_date": "1988-03-19",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "uploads/profile_pictures/DSC_8236.jpg",
+    "slug": "olga",
+    "followers": [
+      1
+    ]
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 11,
+  "fields": {
+    "user": 20,
+    "first_name": null,
+    "last_name": null,
+    "bio": null,
+    "birth_date": "2023-10-05",
+    "country": null,
+    "private": false,
+    "gender": "Man",
+    "online": false,
+    "picture": "default/default.png",
+    "slug": "serj",
+    "followers": []
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 12,
+  "fields": {
+    "user": 21,
+    "first_name": "Сергей",
+    "last_name": "Боец",
+    "bio": "",
+    "birth_date": "1993-10-05",
+    "country": "RU",
+    "private": false,
+    "gender": "Man",
+    "online": true,
+    "picture": "uploads/profile_pictures/1.jpg",
+    "slug": "serj2626",
+    "followers": [
+      1
+    ]
+  }
+},
+{
+  "model": "feedback.feedback",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "type_request": "Problem with personal account",
+    "text": "dsf",
+    "image": "",
+    "date_create": "2023-09-28T16:25:06.305Z"
+  }
+},
+{
+  "model": "feedback.newsletter",
+  "pk": 1,
+  "fields": {
+    "first_name": "admin",
+    "last_name": "boytsob",
+    "email": "fsdfds@mail.ru",
+    "date_create": "2023-09-28T16:33:56.074Z"
+  }
+},
+{
+  "model": "feedback.newsletter",
+  "pk": 2,
+  "fields": {
+    "first_name": "admin",
+    "last_name": "boytsob",
+    "email": "fsdfds@mail.ru",
+    "date_create": "2023-09-28T16:34:18.209Z"
+  }
+},
+{
+  "model": "feedback.newsletter",
+  "pk": 3,
+  "fields": {
+    "first_name": "admin",
+    "last_name": "boytsob",
+    "email": "fsdfds@mail.ru",
+    "date_create": "2023-09-28T16:34:24.947Z"
+  }
+},
+{
+  "model": "feedback.newsletter",
+  "pk": 4,
+  "fields": {
+    "first_name": "admin",
+    "last_name": "boytsob",
+    "email": "fsdfds@mail.ru",
+    "date_create": "2023-09-29T10:23:22.459Z"
+  }
+},
+{
+  "model": "chat.chatmodel",
+  "pk": 6,
+  "fields": {
+    "from_user": 1,
+    "to_user": 15
+  }
+},
+{
+  "model": "chat.chatmodel",
+  "pk": 7,
+  "fields": {
+    "from_user": 17,
+    "to_user": 1
+  }
+},
+{
+  "model": "chat.chatmodel",
+  "pk": 8,
+  "fields": {
+    "from_user": 1,
+    "to_user": 19
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 33,
+  "fields": {
+    "chat": 6,
+    "sender_user": 1,
+    "receiver_user": 15,
+    "body": "Привет Алекс",
+    "date": "2023-10-03T10:53:43.228Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 34,
+  "fields": {
+    "chat": 6,
+    "sender_user": 15,
+    "receiver_user": 1,
+    "body": "Сергей, все хорошо?",
+    "date": "2023-10-03T10:55:09.690Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 35,
+  "fields": {
+    "chat": 6,
+    "sender_user": 15,
+    "receiver_user": 1,
+    "body": "Как ты поживаешь?",
+    "date": "2023-10-03T10:55:19.341Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 36,
+  "fields": {
+    "chat": 6,
+    "sender_user": 1,
+    "receiver_user": 15,
+    "body": "Спасибо, у меня все хорошо, вот впервые зашел на этот сайт, и сразу тебя нашел",
+    "date": "2023-10-03T10:59:13.512Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 37,
+  "fields": {
+    "chat": 7,
+    "sender_user": 17,
+    "receiver_user": 1,
+    "body": "Серый, привет, брат",
+    "date": "2023-10-04T23:45:07.854Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 38,
+  "fields": {
+    "chat": 7,
+    "sender_user": 1,
+    "receiver_user": 17,
+    "body": "Здарова, Денчик",
+    "date": "2023-10-04T23:45:53.901Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 39,
+  "fields": {
+    "chat": 7,
+    "sender_user": 1,
+    "receiver_user": 17,
+    "body": "Как ты?",
+    "date": "2023-10-04T23:45:59.600Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 40,
+  "fields": {
+    "chat": 7,
+    "sender_user": 1,
+    "receiver_user": 17,
+    "body": "Как твое здоровье?",
+    "date": "2023-10-04T23:46:06.853Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 41,
+  "fields": {
+    "chat": 7,
+    "sender_user": 1,
+    "receiver_user": 17,
+    "body": "Что вообще нового?",
+    "date": "2023-10-04T23:46:15.671Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 42,
+  "fields": {
+    "chat": 6,
+    "sender_user": 1,
+    "receiver_user": 15,
+    "body": "Алексей, ты куда пропал?",
+    "date": "2023-10-05T12:15:35.579Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 43,
+  "fields": {
+    "chat": 6,
+    "sender_user": 1,
+    "receiver_user": 15,
+    "body": "Я уже испугался, думал, что тебя убили",
+    "date": "2023-10-05T12:15:57.277Z",
+    "is_read": false
+  }
+},
+{
+  "model": "chat.messagemodel",
+  "pk": 44,
+  "fields": {
+    "chat": 8,
+    "sender_user": 1,
+    "receiver_user": 19,
+    "body": "привет, сестра",
+    "date": "2023-10-06T22:17:40.374Z",
+    "is_read": false
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Осень",
+    "slug": "осень"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Питер",
+    "slug": "питер"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "лето",
+    "slug": "лето"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "питер",
+    "slug": "питер_1"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "тренер",
+    "slug": "тренер"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "спортзал",
+    "slug": "спортзал"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "зад",
+    "slug": "зад"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "фитнесс",
+    "slug": "фитнесс"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "фитнес",
+    "slug": "фитнес"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "хуйня",
+    "slug": "хуйня"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Джулия",
+    "slug": "джулия"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "солнце",
+    "slug": "солнце"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 13,
+  "fields": {
+    "name": "мама",
+    "slug": "мама"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 1,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 10,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 3,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 5,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 6,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 7,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 9,
+    "content_type": 10,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 10,
+    "content_type": 10,
+    "object_id": 14
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 11,
+    "content_type": 10,
+    "object_id": 17
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 12,
+    "content_type": 10,
+    "object_id": 23
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 13,
+    "content_type": 10,
+    "object_id": 23
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 1,
+  "fields": {
+    "challenge": "HKZW",
+    "response": "hkzw",
+    "hashkey": "57a78f6b4411360916caebc83baafe491e4d1257",
+    "expiration": "2023-10-02T11:07:58.847Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 2,
+  "fields": {
+    "challenge": "VEUD",
+    "response": "veud",
+    "hashkey": "ca811bffd8960c33f3ff6ce439ffc71423e77df4",
+    "expiration": "2023-10-02T11:08:04.288Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 3,
+  "fields": {
+    "challenge": "GRFR",
+    "response": "grfr",
+    "hashkey": "01ca4ae2acf4f209e8aa6cfc8370196e130a7dda",
+    "expiration": "2023-10-02T11:09:59.141Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 4,
+  "fields": {
+    "challenge": "KWQC",
+    "response": "kwqc",
+    "hashkey": "f58d87b95f8db0684c0d5501653a51c0a1ee0192",
+    "expiration": "2023-10-02T11:33:30.891Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 5,
+  "fields": {
+    "challenge": "MRUW",
+    "response": "mruw",
+    "hashkey": "75dca11bb12bd84288c52e5a6e2ce7ee65c4e378",
+    "expiration": "2023-10-03T22:03:24.780Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 6,
+  "fields": {
+    "challenge": "NBGP",
+    "response": "nbgp",
+    "hashkey": "ec46cabdbcfbfc36714061e3cbdcd644f958e1b1",
+    "expiration": "2023-10-05T08:50:38.934Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 7,
+  "fields": {
+    "challenge": "EHSJ",
+    "response": "ehsj",
+    "hashkey": "ffe3d8f01281569b2b050466dd4056a9addab8dd",
+    "expiration": "2023-10-05T08:50:45.946Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 8,
+  "fields": {
+    "challenge": "VDLU",
+    "response": "vdlu",
+    "hashkey": "fc928a1999126360d848971ccf1b22ecb03ef633",
+    "expiration": "2023-10-05T08:50:50.835Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 9,
+  "fields": {
+    "challenge": "DRBP",
+    "response": "drbp",
+    "hashkey": "03e5ad909a22234c2f00c8653691f4426b67632f",
+    "expiration": "2023-10-05T08:50:54.946Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 10,
+  "fields": {
+    "challenge": "MBEE",
+    "response": "mbee",
+    "hashkey": "bcc27b897974d2698cfd3012f8b5cc4b5d4f7a2b",
+    "expiration": "2023-10-05T11:21:21.351Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 11,
+  "fields": {
+    "challenge": "KFKM",
+    "response": "kfkm",
+    "hashkey": "7b00ce58a7a1423f001dea9c136171453053f16b",
+    "expiration": "2023-10-05T11:21:44.799Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 12,
+  "fields": {
+    "challenge": "LMPB",
+    "response": "lmpb",
+    "hashkey": "46af4d85554e2dbdb22d61d546d8152da550e8c1",
+    "expiration": "2023-10-07T10:54:28.054Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 13,
+  "fields": {
+    "challenge": "ZRDO",
+    "response": "zrdo",
+    "hashkey": "599c43a0ebd80f5f2b16f13720465cf255bdea57",
+    "expiration": "2023-10-07T10:54:49.006Z"
+  }
+},
+{
+  "model": "social_django.usersocialauth",
+  "pk": 1,
+  "fields": {
+    "user": 21,
+    "provider": "github",
+    "uid": "120113838",
+    "extra_data": {
+      "auth_time": 1696506526,
+      "id": 120113838,
+      "expires": null,
+      "login": "serj2626",
+      "access_token": "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",
+      "token_type": "bearer"
+    },
+    "created": "2023-10-05T11:48:46.584Z",
+    "modified": "2023-10-05T11:48:46.590Z"
+  }
+}
+]

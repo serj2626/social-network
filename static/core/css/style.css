@@ -1,0 +1,13 @@
+.btn-image-detail-edit {
+    color: rgba(18, 59, 204, 0.82);
+    background-color: #0fef69;
+    border: 1px solid #f5be12;
+
+}
+
+.btn-image-detail-edit:hover {
+    color: #141415;
+    background-color: #65ee9e;
+    border: 1px solid #f31818;
+ transition: border-radius 0.5s ease-in;
+}

@@ -1,0 +1,209 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Уведомления{% endblock title %}
+{% load crispy_forms_tags %}
+
+
+{% block main %}
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-12">
+                <div class="d-flex flex-row  justify-content-center align-items-center  mb-5">
+                    <div><p class="text-center   text-warning fs-2 m-2 ">Уведомления</p></div>
+                    <div class="mx-5">
+
+                        <form action="{% url 'notifications_all_seen' %}" method="post">
+                            {% csrf_token %}
+                            <button class="btn btn-danger  mx-2 rounded-pill">Очистить все</button>
+                        </form>
+                    </div>
+                </div>
+
+                {% if notifications %}
+                    {% for notificat in notifications %}
+
+                        {% if notificat.notification_type == 1 %}
+
+                            <div class="alert alert-warning border-danger rounded-pill text-center" role="alert">
+                                <p><i class="fa-solid fa-heart fa-lg text-danger"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a>
+                                    поставил лайк к вашей фотографии
+                                    <a href="{{ notificat.image.get_absolute_url }}"><img
+                                            src="{{ notificat.image.photo.url }}" class="rounded-circle mx-2"
+                                            width="35px"
+                                            height="35px">
+                                    </a>
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+
+                        {% elif notificat.notification_type == 2 %}
+
+                            <div class="alert alert-secondary border-info rounded-pill text-center" role="alert">
+                                <p><i class="fa-solid fa-comment fa-lg text-secondary"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a>
+                                    оставил комментарий под Вашей фотографии
+                                    <a href="{{ notificat.image.get_absolute_url }}"><img
+                                            src="{{ notificat.image.photo.url }}" class="rounded-circle mx-2"
+                                            width="35px"
+                                            height="35px">
+                                    </a>
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+
+                        {% elif notificat.notification_type == 3 %}
+
+                            <div class="alert alert-info border-warning rounded-pill text-center py-3" role="alert">
+                                <p><i class="fa-solid fa-plus-circle fa-lg" style="color: #2ce713;"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a> подписался на Вас
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+                        {% elif notificat.notification_type == 4 %}
+                            <div class="alert alert-danger border-warning rounded-pill text-center py-3" role="alert">
+                                <p><i class="fa-solid fa-poo fa-lg" style="color: #a26c39;"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a> отписался от Вас
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+
+                        {% elif notificat.notification_type == 5 %}
+                            <div class="alert alert-info border-warning rounded-pill text-center py-3" role="alert">
+                                <p><i class="fa-solid fa-thumbs-up fa-lg text-warning"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a> поставил лайк к вашему комментарию
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+
+                        {% elif notificat.notification_type == 6 %}
+                            <div class="alert alert-dark border-warning rounded-pill text-center py-3" role="alert">
+                                <p><i class="fa-solid fa-envelope fa-lg text-success"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a> оставил Вам сообщение
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+
+
+                        {% elif notificat.notification_type == 7 %}
+                            <div class="alert alert-dark border-warning rounded-pill text-center py-3" role="alert">
+                                <p><i class="fa-solid fa-envelope fa-lg"></i> Пользователь
+                                    <a class="text-decoration-none"
+                                       href="{{ notificat.from_user.profile.get_absolute_url }}">
+                                        {{ notificat.from_user.profile.first_name }} {{ notificat.from_user.profile.last_name }}
+                                    </a> удалил Вас из списка своих подписчиков
+                                <div>
+                                    <form action="{% url 'notifications_detail_seen' notificat.pk %}"
+                                          method="post">{% csrf_token %}
+                                        <button type="submit" class="border-0 bg-transparent"><i
+                                                class="fa-solid fa-xmark fa-lg"></i>
+                                        </button>
+                                    </form>
+
+                                </div>
+                                </p>
+                            </div>
+                        {% endif %}
+
+
+                    {% endfor %}
+                {% else %}
+                    <div class="alert alert-danger text-center text-danger">
+                        Уведомлений нет
+                    </div>
+                {% endif %}
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+{% endblock main %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

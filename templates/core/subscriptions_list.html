@@ -1,0 +1,126 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    {{ profile.first_name }} {{ profile.last_name }}
+{% endblock title %}
+
+{% block style %}
+{% endblock style %}
+
+
+{% block main %}
+
+    <div class="row justify-content-center">
+        <div class="container">
+            <div class="col-md-9 mx-auto shadow-lg">
+
+
+                <div class=" p-3 bg-body rounded shadow-sm">
+
+
+
+
+                    {% if request.user == profile.user %}
+                        <h4 class="border-bottom py-2 my-3 text-center text-warning">Мои подписки</h4>
+                    {% else %}
+                        <h4 class="border-bottom py-2 my-2 text-center">Подписки
+                            пользователя {{ profile.first_name }} {{ profile.last_name }}</h4>
+                    {% endif %}
+
+
+                    {% if list_subscriptions %}
+
+
+
+                        {% for user in list_subscriptions %}
+                            <div class="d-flex flex-row text-muted pt-3 px-3">
+                                <div>
+                                    <img src="{{ user.profile.picture.url }}" width="80px" height="80px"
+                                         class="rounded-pill">
+                                </div>
+
+
+                                <div class="pb-3 w-100 mx-3 d-flex flex-row justify-content-between border-bottom">
+                                    <div class="d-flex flex-column">
+                                        <strong class="text-gray-dark fs-6">
+                                            <a href="{{ user.profile.get_absolute_url }}" class="text-decoration-none">
+                                                {{ user.profile.first_name }} {{ user.profile.last_name }}
+                                            </a>
+                                            <span class="d-block fs-6">@{{ user.profile.user.username }}</span>
+                                             <span class="d-block fs-6 my-2">
+                                                {% if user.profile.online %}
+                                                    <span class=" px-2 bg-primary text-white rounded-2 rounded-pill">В сети</span>
+                                                {% else %}
+                                                    <span class=" px-2 bg-danger text-white rounded-2 rounded-pill">Не в сети</span>
+                                                {% endif %}
+                                            </span>
+                                        </strong>
+                                    </div>
+
+                                    <div class="text-end d-flex flex-column ">
+                                        {% if request.user in user.profile.followers.all %}
+                                            <div>
+                                                <form method="POST"
+                                                      action="{% url 'remove_follower' user.profile.slug %}">
+                                                    {% csrf_token %}
+                                                    <button class="btn btn-outline-danger mt-1 border-0" type="submit">
+                                                        <i class="fa-solid fa-minus fa-lg"> Отписаться</i>
+
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        {% else %}
+
+                                            <div>
+                                                <form method="POST" action="{% url 'add_follower' user.profile.slug %}">
+                                                    {% csrf_token %}
+                                                    <button class="btn btn-outline-success mt-1 border-0" type="submit">
+                                                        <i class="fa-solid fa-plus fa-lg"> Подписаться в ответ</i>
+
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        {% endif %}
+                                        <div>
+                                            <form method="POST" action="{% url 'chat_create' user.profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-primary border-0 mt-1" type="submit">
+                                                    <i class="fa-solid fa-paper-plane fa-lg"
+                                                       style=""> Написать</i>
+
+                                                </button>
+                                            </form>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        {% endfor %}
+
+
+                    {% else %}
+                        <div>
+                            {% if request.user == profile.user %}
+                                <p class="text-center fs-6 ">У вас пока что нет подписок!</p>
+                            {% else %}
+                                <p class="text-center fs-6">
+                                    У пользователя {{ profile.first_name }} {{ profile.last_name }} нет подписок!
+                                </p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock main %}

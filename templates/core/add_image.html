@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Добавить фото
+{% endblock title %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+{% endblock content %}
+
+
+
+
+{% block main %}
+    <div class="row d-flex justify-content-center align-items-center mt-5">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card bg-dark text-white" style="border-radius: 1rem;">
+                <div class="card-body px-4 text-center">
+
+                    <div class="">
+
+                        <h2 class="fw-bold mb-2 text-uppercase text-warning">Новое фото</h2>
+
+                        <img src="{% static 'core/img/mango.png' %}" width="100px" height="auto">
+
+                        <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+                            {{ form|crispy }}
+                            <div class="text-center d-grid gap-2">
+                                <button class="btn btn-outline-warning " type="submit">Загрузить</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock main %}

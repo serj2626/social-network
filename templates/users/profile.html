@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% load count_notification %}
+
+
+{% block main %}
+
+
+
+    {% get_count as count %}
+
+    <div class="container">
+
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-md-8">
+
+                <div class="card py-3 shadow-lg">
+                    {% if profile.user != request.user %}
+                        {% if profile.online %}
+                            <div class="online-status text-center mb-4 ">
+
+                                <span class=" p-2 bg-primary text-white rounded-2 rounded-pill">В сети</span>
+                            </div>
+                        {% else %}
+                            <div class="offline-status text-danger text-center mb-4">
+                                <span class=" p-2 bg-danger text-white rounded-2 rounded-pill">Не в сети</span>
+
+                            </div>
+                        {% endif %}
+                    {% else %}
+                        <div class="online-status text-center mb-4 ">
+
+                            <span class=" p-2 bg-primary text-white rounded-2 rounded-pill">Это Вы</span>
+                        </div>
+                    {% endif %}
+                    <div class="text-center">
+                        <img src="{{ profile.picture.url }}" width="200" height="200" class="rounded-circle shadow-sm">
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <span class=" rounded text-white"><img src="{{ profile.country.flag }}"
+                                                               title="{{ profile.country.name }}" width="35px"
+                                                               height="25px"></span>
+                        <h5 class="mt-2 mb-0">{{ profile.first_name }} {{ profile.last_name }}</h5>
+                        <span>Пол: {{ profile.get_gender_display }}</span><br>
+                        <span>{{ profile.age }} лет</span>
+
+                        <div class="px-4 mt-1">
+                            {% if profile.bio %}
+                                <p class="fonts">{{ profile.bio }}. </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <table class="table text-center">
+                        <thead>
+                        <tr>
+                            <th scope="col">Подписчики</th>
+                            <th scope="col">Фотографии</th>
+                            <th scope="col">Лайки</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><a class="text-decoration-none"
+                                   href="{% url 'list_followers'  profile.slug %}">{{ profile.followers.all.count }}</a>
+                            </td>
+                            <td>{{ profile.profile_images.all.count }}</td>
+                            <td>{{ count_likes }}</td>
+                        </tr>
+                        <tr>
+                    </table>
+
+
+                    <div class="d-flex flex-row justify-content-center">
+
+
+                        {% if request.user == profile.user %}
+                            <a class="btn btn-success rounded-pill"
+                               href="{% url 'users:profile_update' profile.slug %}">Редактировать
+                                профиль</a>
+                        {% else %}
+                            {% if request.user in profile.followers.all %}
+                                <form action="{% url 'remove_follower' profile.slug %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-danger rounded-pill mx-3">Отписаться
+                                    </button>
+                                </form>
+                                <form method="POST" action="{% url 'chat_create' profile.slug %}">
+                                    {% csrf_token %}
+                                    <button class="btn btn-primary rounded-pill " type="submit">
+                                        Написать
+
+                                    </button>
+                                </form>
+                            {% else %}
+                                <form action="{% url 'add_follower' profile.slug %}" method="post">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-success rounded-pill mx-3">
+                                        Подписаться
+                                    </button>
+                                </form>
+                                <form method="POST" action="{% url 'chat_create' profile.slug %}">
+                                    {% csrf_token %}
+                                    <button class="btn btn-primary rounded-pill" type="submit">
+                                        Написать
+
+                                    </button>
+                                </form>
+                            {% endif %}
+
+                        {% endif %}
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid border-top mt-3">
+
+        <div class="row ">
+            <div class="row align-items-md-stretch mb-5 bg-light">
+                {% if profile.private and profile.user != request.user %}
+                    <div class="alert alert-danger my-4">
+                        <h6 class="text-center"><i class="fa-solid fa-lock fa-xl"></i>
+                            Пользователь {{ profile.first_name }} {{ profile.last_name }}
+                            ограничил доступ к своим фотографиям</h6>
+                    </div>
+                {% else %}
+                    {% for image in profile.profile_images.all %}
+                        <div class="col-md-4">
+                            <a href="{{ image.get_absolute_url }}">
+                                <img height="260px" width="260px" src="{{ image.photo.url }}"
+                                     class="card-img-top rounded-3 my-3 mx-1 shadow-lg">
+                            </a>
+
+                        </div>
+                    {% empty %}
+                        <div class="alert alert-danger my-5">
+                            <h3 class="text-center">Фотографий нет</h3>
+                        </div>
+
+                    {% endfor %}
+
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+{% endblock main %}

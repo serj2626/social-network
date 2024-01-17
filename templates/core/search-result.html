@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block style %}
+{% endblock style %}
+
+
+{% block main %}
+
+    <div class="row justify-content-center">
+        <div class="container">
+            <div class="col-md-9 mx-auto shadow-lg">
+
+
+                <div class=" p-3 bg-body rounded shadow-sm">
+
+
+                    <h4 class="text-center text-warning">Результаты поиска <span class="text-success">( {{ people }} )</span></h4>
+
+
+
+
+
+
+                    {% for profile in object_list %}
+                        <div class="d-flex flex-row text-muted pt-3 px-3">
+                            <div>
+                                <img src="{{ profile.picture.url }}" width="80px" height="80px"
+                                     class="rounded-pill">
+                            </div>
+
+
+                            <div class="pb-3 w-100 mx-3 d-flex flex-row justify-content-between border-bottom">
+                                <div class="d-flex flex-column">
+                                    <strong class="text-gray-dark fs-6">
+                                        <a href="{{ profile.get_absolute_url }}" class="text-decoration-none">
+                                            {{ profile.first_name }} {{ profile.last_name }}
+                                        </a>
+                                        <span class="d-block fs-6">@{{ profile.user.username }}</span>
+                                            <span class="d-block fs-6 my-2">
+                                                {% if profile.online %}
+                                                    <span class=" px-2 bg-primary text-white rounded-2 rounded-pill">В сети</span>
+                                                {% else %}
+                                                    <span class=" px-2 bg-danger text-white rounded-2 rounded-pill">Не в сети</span>
+                                                {% endif %}
+                                            </span>
+                                    </strong>
+                                </div>
+
+                                <div class="text-end d-flex flex-column ">
+                                    {% if request.user in profile.followers.all %}
+                                        <div>
+                                            <form method="POST"
+                                                  action="{% url 'remove_follower' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-danger mt-1 border-0" type="submit">
+                                                    Отписаться <i class="fa-solid fa-minus fa-lg"></i>
+
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form method="POST" action="{% url 'chat_create' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-primary border-0 mt-1" type="submit">
+                                                    Написать <i class="fa-solid fa-paper-plane fa-lg"
+                                                                style="color: #0d5be3;"></i>
+
+                                                </button>
+                                            </form>
+
+                                        </div>
+                                    {% elif profile.user in request.user.profile.followers.all and request.user not in profile.followers.all %}
+                                        <div>
+                                            <form method="POST" action="{% url 'add_follower' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-success mt-1 border-0" type="submit">
+                                                    Подписаться в ответ <i class="fa-solid fa-plus fa-lg"></i>
+
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form method="POST" action="{% url 'chat_create' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-primary border-0 mt-1" type="submit">
+                                                    Написать <i class="fa-solid fa-paper-plane fa-lg"
+                                                                style="color: #0d5be3;"></i>
+
+                                                </button>
+                                            </form>
+
+                                        </div>
+                                        <div>
+                                            <form method="POST"
+                                                  action="{% url 'follower_delete' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-success border-0 mt-1" type="submit">
+                                                    Удалить <i class="text-danger fa-solid fa-user-minus fa-lg"></i>
+
+                                                </button>
+                                            </form>
+                                        </div>
+                                    {% elif request.user not in profile.followers.all and profile.user != request.user %}
+
+                                        <div>
+                                            <form method="POST" action="{% url 'add_follower' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-success mt-1 border-0" type="submit">
+                                                    Подписаться <i class="fa-solid fa-plus fa-lg"></i>
+
+                                                </button>
+                                            </form>
+                                        </div>
+                                        <div>
+                                            <form method="POST" action="{% url 'chat_create' profile.slug %}">
+                                                {% csrf_token %}
+                                                <button class="btn btn-outline-primary border-0 mt-1" type="submit">
+                                                    Написать <i class="fa-solid fa-paper-plane fa-lg"
+                                                                style="color: #0d5be3;"></i>
+
+                                                </button>
+                                            </form>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% empty %}
+                        <h5 class="text-center text-danger my-5">Ваш запрос не дал результатов</h5>
+                    {% endfor %}
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+{% endblock main %}

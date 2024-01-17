@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Редактирование
+{% endblock title %}
+
+{% load static %}
+
+{% load crispy_forms_tags %}
+
+{% block style %}
+    {#    <link rel="stylesheet" href="{% static 'core/css/update-profile.css' %}">#}
+{% endblock style %}
+
+
+
+
+{% block main %}
+    <div class="container my-2">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="card bg-dark text-white shadow-sm" style="border-radius: 1rem;">
+                    <div class="card-body p-2 text-center">
+
+                        <div class="my-2">
+
+                            <h4 class="fw-bold mb-2 text-uppercase text-warning">Редактировать профиль</h4>
+                            <img src="{% static 'core/img/mango.png' %}" width="80px" height="auto">
+
+                            <form action="" method="post" enctype="multipart/form-data" class="">
+                                {% csrf_token %}
+                                <div class="card-body">
+                                    {{ form|crispy }}
+                                </div>
+                                <div class="">
+                                    <div class="d-grid gap-2 px-3">
+                                        <button class="btn btn-outline-warning" type="submit">Обновить данные
+                                        </button>
+                                    </div>
+                                      <div class="d-grid gap-2 px-3 pt-5">
+                                          <a class="text-decoration-none text-danger " href="{% url 'users:password_change' %}">Сменить пароль</a>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock main %}
+
+
